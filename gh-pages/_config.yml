@@ -1,8 +1,4 @@
 theme: jekyll-theme-slate
 
 # Google Analytics
-ya:
-  id: 40819844
-ga:
-  id: UA-80208201-1
-  host: "d-k-ivanov.github.io"
+google_analytics: UA-80208201-1
