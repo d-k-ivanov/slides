@@ -8,26 +8,32 @@ os: linux
 
 install:
   - |
-    # System info:
-    ls -la
-    cat /etc/issue
-    uname -a
+    # Configure project
+    BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
+    mkdir -p "${BUILD_DIR}" && cd "${BUILD_DIR}"
+    cmake ..
+  - |
+    if [ -f ${BUILD_DIR}/CMakeFiles/CMakeError.log ]; then
+        echo "============================== CMake Errors:   =============================="
+        cat ${BUILD_DIR}/CMakeFiles/CMakeError.log
+        echo "============================================================================="
+    fi
+  - |
+    if [ -f ${BUILD_DIR}/CMakeFiles/CMakeOutput.log ]; then
+        echo "============================== CMake Output:   =============================="
+        cat ${BUILD_DIR}/CMakeFiles/CMakeOutput.log
+        echo "============================================================================="
+    fi
 
 script:
   - |
-    # Prepare GH Pages
-    cp ${TRAVIS_BUILD_DIR}/README.md ${TRAVIS_BUILD_DIR}/gh-pages/.
-
-script:
-  - |
-    # Prepare GH Pages
-    cp -f ${TRAVIS_BUILD_DIR}/README.md ${TRAVIS_BUILD_DIR}/gh-pages/.
+    cmake --build .
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: "$GITHUB_TOKEN"
   keep_history: false
-  local_dir: ${TRAVIS_BUILD_DIR}/gh-pages
+  local_dir: ${TRAVIS_BUILD_DIR}/_out
   on:
     branch: master
