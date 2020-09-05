@@ -2,10 +2,32 @@ env:
   global:
     secure: SKezKTsmkVdihu54vIbtTKQQKFUFYbVhCjazwcUYDtMMkGa/T9mTmvXjnxNHPxGoZ3yeAxRg2vMK8Y+nXTMEtJ0L0TVuiN76EBP9CF2Bb/JQiRUlQ1TtT5DQa45HDmSko9BHJIT2v4B28ca789FsUvLov4+kymuaXDEgvLxT9zA9BdZhKibKcuS6sJAy4AHDpYdap85C0g/GWqluwRWbJo5JgtkI9Ll1DFJRunXbiS83VgZc303GnVy1rVNn+TxaGUo4hEIHaHRom2ltC3wQAUFd0OFCXPWj2QqCikbmMwTn4xHl8Do6MSqVFn56ExbdswzQhvvP/na0iqT/SShd2vpaw2EFIEQOhiOkn4TBGtm8mm1O3CevLMeOUB1YzRvGbhd/tlvrMV0QW1FLAa+4h8li9LMPhUwzCW633bA2Bst3HTODOQOBiaLLhr7m8BGVYdsp1kE3YD35IaRRx9bR/nkUGHdKoOaifMeNdAZeB5J8xxj5G6+T2yuAqLvy+zrq4E/6MEtFK0vKqW2qKhofTm2C9VnJpF3+TniGpykeVMX2Y5y4C6xejdCg8DlLV420MYc6XZOUuH6ZRO/yGw8QeZ9mM+wVeSTcGccKjih+qRXINzA5j36Gtfmfs1GXsC5raypvloR2EQplEHgLffBBPyuQTHS5YXnvym6/fUEI3a8=
 
+sudo: false
+language: cpp
+os: linux
+
+install:
+  - |
+    # System info:
+    ls -la
+    cat /etc/issue
+    uname -a
+
+script:
+  - |
+    # Prepare GH Pages
+    cp ${TRAVIS_BUILD_DIR}/README.md ${TRAVIS_BUILD_DIR}/gh-pages/.
+
+script:
+  - |
+    # Prepare GH Pages
+    cp -f ${TRAVIS_BUILD_DIR}/README.md ${TRAVIS_BUILD_DIR}/gh-pages/.
+
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: "$GITHUB_TOKEN"
-  keep_history: true
+  keep_history: false
+  local_dir: ${TRAVIS_BUILD_DIR}/gh-pages
   on:
     branch: master
