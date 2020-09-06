@@ -1,11 +1,13 @@
 cmake_minimum_required(VERSION 3.10)
 project(slides LANGUAGES CXX VERSION 0.1.0.0)
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+# set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 include(base)
 include(macros)
+include(remark)
 
 # Set basic variables: output paths, install paths, lib paths, etc.
 set_base_vars()
@@ -27,6 +29,7 @@ file(APPEND ${OUTPUT_DIR_MAIN}/about.txt "Author: ${AUTHOR}\n")
 file(APPEND ${OUTPUT_DIR_MAIN}/about.txt "Company: ${COMPANY}\n")
 file(APPEND ${OUTPUT_DIR_MAIN}/about.txt "Identifier: ${IDENTIFIER}\n")
 
+add_subdirectory("lib")
 add_subdirectory("src")
 
 file(COPY ${CMAKE_SOURCE_DIR}/README.md DESTINATION ${OUTPUT_DIR_MAIN})

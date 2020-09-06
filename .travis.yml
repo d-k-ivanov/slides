@@ -8,7 +8,6 @@ os: linux
 
 install:
   - |
-    # Configure project
     BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
     mkdir -p "${BUILD_DIR}" && cd "${BUILD_DIR}"
     cmake ..

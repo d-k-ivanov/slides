@@ -1,1 +1,1 @@
-add_subdirectory("gh-pages")
+add_subdirectory("example")
