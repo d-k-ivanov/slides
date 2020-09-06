@@ -327,9 +327,11 @@ function(add_remark_slides target)
     set(gen_slides "${CMAKE_CURRENT_BINARY_DIR}/gen_slides_${gen_slides_identifier}.cmake")
 
     # define custom command to generate slides
-    add_custom_command(OUTPUT ${dest_dir}/${add_remark_slides_NAME}.html
+    # add_custom_command(OUTPUT ${dest_dir}/${add_remark_slides_NAME}.html
+    add_custom_command(OUTPUT ${dest_dir}/index.html
         COMMAND ${CMAKE_COMMAND} -P ${gen_slides}
-        COMMAND ${CMAKE_COMMAND} -E touch ${dest_dir}/${add_remark_slides_NAME}.html
+        # COMMAND ${CMAKE_COMMAND} -E touch ${dest_dir}/${add_remark_slides_NAME}.html
+        COMMAND ${CMAKE_COMMAND} -E touch ${dest_dir}/index.html
         DEPENDS
             ${CMAKE_CURRENT_LIST_FILE}
             ${add_remark_slides_STYLE}
@@ -345,7 +347,8 @@ function(add_remark_slides target)
     # add custom target
     add_custom_target(${target} ${all}
         DEPENDS
-            ${dest_dir}/${add_remark_slides_NAME}.html
+            # ${dest_dir}/${add_remark_slides_NAME}.html
+            ${dest_dir}/index.html
         SOURCES
             ${add_remark_slides_HTML_TEMPLATE}
             ${add_remark_slides_STYLE_TEMPLATE}
@@ -432,8 +435,10 @@ set(REMARK_STYLE style.css)
 
     file(APPEND ${gen_slides} "
 # generate output file with slides
-message(STATUS \"Generating '\${dest_dir}/${add_remark_slides_NAME}.html'\")
-configure_file(${add_remark_slides_HTML_TEMPLATE} \${dest_dir}/${add_remark_slides_NAME}.html @ONLY)
+# message(STATUS \"Generating '\${dest_dir}/${add_remark_slides_NAME}.html'\")
+message(STATUS \"Generating '\${dest_dir}/index.html'\")
+# configure_file(${add_remark_slides_HTML_TEMPLATE} \${dest_dir}/${add_remark_slides_NAME}.html @ONLY)
+configure_file(${add_remark_slides_HTML_TEMPLATE} \${dest_dir}/index.html @ONLY)
 ")
     if(add_remark_slides_HANDOUTS)
         file(APPEND ${gen_slides} "
