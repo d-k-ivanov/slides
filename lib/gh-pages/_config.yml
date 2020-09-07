@@ -1,4 +1,8 @@
 theme: jekyll-theme-midnight
+title: Slides and Presentations
+description: Site to store slides and presentations
+
+show_downloads: "false"
 
 # Google Analytics
 google_analytics: UA-80208201-1
