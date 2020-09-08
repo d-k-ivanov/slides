@@ -37,4 +37,6 @@ div.footer p {
 
 div.footer p span {
     color: var(--color-Accent);
+    font-weight: bold;
+    font-size: 1.2em;
 }
