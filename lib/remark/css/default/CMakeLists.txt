@@ -7,5 +7,6 @@ add_remark_style(remark-style-default
         css/default_base.css
         css/default_remark.css
         css/default_colors.css
+        css/default_footer.css
         css/default_laser_pointer.css
 )

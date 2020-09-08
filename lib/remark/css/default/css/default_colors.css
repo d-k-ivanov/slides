@@ -1,39 +1,63 @@
 :root {
-    /* Background */
-    /* --color-Background: rgb(249, 245, 215); */
-    --color-Background: rgb(255, 255, 255);
-    --color-BackgroundDark: rgb(80, 73, 69);
-
-    /* Foreground */
-    --color-Foreground: rgb(80, 73, 69);
-    /* --color-ForegroundDark: rgb(249, 245, 215); */
-    --color-ForegroundDark: rgb(255, 255, 255);
+    /* Base colors */
+    --color-White: rgb(255, 255, 255);
+    --color-Black: rgb(0, 0, 0);
 
     /* Interesing Colors */
     --color-BlueTwo: rgb(43, 112, 207);
 
     /* Gruvbox Lite Colors */
     --color-Creme: rgb(251, 241, 199);
-    --color-CremeDark: rgb(189, 174, 147);
+    --color-Creme: rgb(213, 196, 161);
+    --color-CremeDark: rgb(168, 153, 132);
+
     --color-Gray: rgb(124, 111, 100);
+    --color-GrayMedium: rgb(80, 73, 69);
     --color-GrayDark: rgb(60, 56, 54);
-    --color-Red: rgb(204, 36, 29);
+    --color-GrayDarker: rgb(40, 40, 40);
+
+    --color-RedLight: rgb(251, 73, 52);
+    --color-RedMedium: rgb(204, 36, 29);
     --color-RedDark: rgb(157, 0, 6);
-    --color-Green: rgb(152, 151, 26);
+
+    --color-GreenLight: rgb(184, 187, 38);
+    --color-GreenMedium: rgb(152, 151, 26);
     --color-GreenDark: rgb(121, 116, 14);
-    --color-Yellow: rgb(215, 153, 33);
+
+    --color-YellowLight: rgb(250, 189, 47);
+    --color-YellowMedium: rgb(215, 153, 33);
     --color-YellowDark: rgb(181, 118, 20);
-    --color-Blue: rgb(7, 102, 120);
+
+    --color-BlueLight: rgb(131, 165, 152);
+    --color-BlueMedium: rgb(7, 102, 120);
     --color-BlueDark: rgb(34, 66, 89);
-    --color-Purple: rgb(177, 98, 134);
+
+    --color-PurpleLight: rgb(211, 134, 155);
+    --color-PurpleMedium: rgb(177, 98, 134);
     --color-PurpleDark: rgb(143, 63, 113);
-    --color-Aqua: rgb(104, 157, 106);
+
+    --color-AquaLight: rgb(142, 192, 124);
+    --color-AquaMedium: rgb(104, 157, 106);
     --color-AquaDark: rgb(66, 123, 88);
-    --color-Orange: rgb(214, 93, 14);
+
+    --color-OrangeMedium: rgb(254, 128, 25);
+    --color-OrangeMedium: rgb(214, 93, 14);
     --color-OrangeDark: rgb(175, 58, 3);
 
-    --color-ThemeMain: var(--color-Red);
-    --color-Text: var(--color-BackgroundDark);
-    --color-FooterText: var(--color-BackgroundDark);
-    --color-Info: var(--color-Yellow);
+    /* Theme Colors */
+    --color-Accent: var(--color-BlueLight);
+    --color-Info: var(--color-YellowMedium);
+
+    /* Theme Base */
+    --color-Background:var(--color-White);
+    --color-Text: var(--color-GrayMedium);
+
+    /* Theme Title */
+    --color-Title: var(--color-GrayDark);
+    --color-TitleText: var(--color-White);
+
+    /* Theme Footer */
+    --color-Footer: var(--color-GrayMedium);
+    --color-FooterText: var(--color-White);
+
 }

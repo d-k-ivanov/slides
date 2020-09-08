@@ -16,10 +16,12 @@ p {
 ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
+    margin: 15px 0px 0px 0px;
     line-height: 1.7em;
 }
 ul ul {
+    margin: 0px 0px 0px 0px;
     line-height: 1.5em;
 }
 ul ul ul {
@@ -34,7 +36,7 @@ ul > li {
 }
 ul > li:before {
     content: "•";
-    color: var(--color-ThemeMain);
+    color: var(--color-Accent);
 }
 ul ul > li:before {
     content: "–";
@@ -51,18 +53,18 @@ ol > li {
     line-height: 2em;
 }
 a {
-    color: var(--color-ThemeMain);
+    color: var(--color-Accent);
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 strong {
-    color: var(--color-ThemeMain);
+    color: var(--color-Accent);
     font-weight: bold;
 }
 em {
-    color: var(--color-ThemeMain);
+    color: var(--color-Accent);
     font-weight: bold;
 }
 pre {

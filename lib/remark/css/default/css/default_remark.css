@@ -11,7 +11,7 @@
     display: block;
     position: relative;
     height: 471px;
-    margin: 35px 50px;
+    margin: 30px 50px;
     padding: 0px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,16 +27,28 @@
     height: 100px;
     width: 1130px;
     -webkit-box-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.remark-slide-content h2, .remark-slide-content h3 {
-    font-size: 1.5em;
+.remark-slide-content h2 {
+    display: initial;
+    padding: 0px 15px 0px 15px;
+    color: var(--color-Background);
+    background-color: var(--color-Accent);
+    font-size: 1.2em;
+}
+.remark-slide-content h3 {
+    /* display: initial; */
+    margin: 15px 0px 15px 0px;
+    padding: 0px 15px 0px 15px;
+    font-size: 1.2em;
 }
 .remark-slide-number {
+    bottom: 7px;
     position: fixed;
     color: var(--color-FooterText);
-    font-size: 0.65em;
-    right: 50px;
+    font-size: 0.5em;
+    right: 40px;
 }
 
 /* title slide */
@@ -51,7 +63,7 @@
     color: var(--color-Background);
     font-weight: bold;
     background-size: cover !important;
-    background: var(--color-BackgroundDark);
+    background: var(--color-Title);
 }
 .title-slide h1, .title-slide h2 {
     position: absolute;
@@ -66,7 +78,7 @@
     left: 90px;
     height: initial;
     width: initial;
-    font-size: 3em;
+    font-size: 2.5em;
     box-shadow: none;
 }
 .title-slide h2 {
@@ -74,8 +86,15 @@
     top: 440px;
     left: 90px;
     font-size: 1.1em;
+    display: initial;
+    padding: 10px 10px 10px 10px;
+    color: var(--color-TitleText);
+    background-color: var(--color-Accent);
 }
 .title-slide .remark-slide-number {
+    display: none;
+}
+.title-slide div.footer {
     display: none;
 }
 
@@ -88,18 +107,21 @@
     width: 100%;
     padding: 0px;
     margin: 0px;
-    color: var(--color-ThemeMain);
+    color: var(--color-Accent);
     background-size: cover;
 }
 .section-title-slide .remark-slide-number {
+    display: none;
+}
+.section-title-slide div.footer {
     display: none;
 }
 .section-title-slide h1, .section-title-slide h2 {
     display: initial;
     position: absolute;
     left: 100px;
-    color: var(--color-Background);
-    background-color: var(--color-ThemeMain);
+    color: var(--color-TitleText);
+    background-color: var(--color-Accent);
 }
 .section-title-slide h1 {
     top: 380px;
@@ -124,9 +146,9 @@
     float: left;
     margin-top: 15px;
 }
-.left-column > :first-child {
+/* .left-column > :first-child {
     margin-top: 0px;
-}
+} */
 .remark-slide-content > .left-column {
     margin-top: 0px;
 }
@@ -135,9 +157,9 @@
     float: right;
     margin-top: 15px;
 }
-.right-column > :first-child {
+/* .right-column > :first-child {
     margin-top: 0px;
-}
+} */
 .remark-slide-content > .right-column {
     margin-top: 0px;
 }

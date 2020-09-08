@@ -2,7 +2,7 @@ class: title-slide
 
 # LOREM IPSUM DOLOR TITULOS
 
-## Lorem Ipsum Subtilissima
+## LOREM IPSUM SUBTILISSIMA
 
 Dmitriy Ivanov
 
@@ -95,7 +95,7 @@ class: small-code
 --
 
 .left-column[
-## Columnae Ūnus
+## COLUMNAE ŪNUS
 
 - Lorem ipsum dolor sit amet
 - Sed eleifend lorem a putus tincidunt
@@ -108,7 +108,7 @@ class: small-code
 --
 
 .right-column[
-## Columnae Duo
+## COLUMNAE DUO
 
 ### SUBTILISSIMA ŪNUS
 

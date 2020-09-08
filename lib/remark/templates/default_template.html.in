@@ -9,8 +9,15 @@
 			@import url("@REMARK_STYLE@");
 		</style>
 	</head>
-<body>
+    <body>
 		<textarea id="source">
+
+layout: true
+<!-- <div class="header"></div> -->
+<div class="footer"><p><span>&#60;</span>Dmitriy Ivanov<span>&#62;</span> | @REMARK_TITLE@ </p></div>
+
+---
+
 @REMARK_CONTENT@
 		</textarea>
 		<script src="scripts/remark.js"></script>
