@@ -24,7 +24,7 @@
 				ratio: '16:9',
 				countIncrementalSlides: false,
 				highlightLanguage: 'cpp',
-				highlightStyle: 'monokai',
+				highlightStyle: 'gruvbox-dark',
 				highlightLines: true,
 				highlightSpans: true,
 				slideNumberFormat: '%current%'

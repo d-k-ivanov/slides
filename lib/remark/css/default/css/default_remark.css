@@ -1,200 +1,200 @@
 /* default remark slide style */
 .remark-slide {
-  padding-top: 100px;
-  padding-bottom: 40px;
-  background-color: var(--color-White);
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: var(--color-Background);
 }
 .remark-slide-content {
-  font-family: 'Droid Serif';
-  font-size: 1.6em;
-  color: var(--color-Text);
-  display: block;
-  position: relative;
-  height: 471px;
-  margin: 35px 50px;
-  padding: 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.6em;
+    color: var(--color-Text);
+    display: block;
+    position: relative;
+    height: 471px;
+    margin: 35px 50px;
+    padding: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .remark-slide-content h1 {
-  position: fixed;
-  display: -webkit-inline-box;
-  margin: 0px;
-  padding: 0px 40px 0px 40px;
-  top: 0px;
-  left: 0px;
-  height: 100px;
-  width: 1130px;
-  -webkit-box-align: center;
-  font-size: 2em;
+    position: fixed;
+    display: -webkit-inline-box;
+    margin: 0px;
+    padding: 0px 40px 0px 40px;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 1130px;
+    -webkit-box-align: center;
+    font-size: 2em;
 }
 .remark-slide-content h2, .remark-slide-content h3 {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 .remark-slide-number {
-  position: fixed;
-  color: var(--color-FooterText);
-  font-size: 0.65em;
-  right: 50px;
+    position: fixed;
+    color: var(--color-FooterText);
+    font-size: 0.65em;
+    right: 50px;
 }
 
 /* title slide */
 .title-slide {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 131px;
-  width: 1120px;
-  padding: 550px 0px 0px 90px;
-  margin: 0px;
-  color: var(--color-White);
-  font-weight: bold;
-  background-size: cover !important;
-  background: var(--color-Graphite);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 131px;
+    width: 1120px;
+    padding: 550px 0px 0px 90px;
+    margin: 0px;
+    color: var(--color-Background);
+    font-weight: bold;
+    background-size: cover !important;
+    background: var(--color-BackgroundDark);
 }
 .title-slide h1, .title-slide h2 {
-  position: absolute;
-  color: var(--color-White);
-  background-color: initial;
-  padding: 0px;
+    position: absolute;
+    color: var(--color-Background);
+    background-color: initial;
+    padding: 0px;
 }
 .title-slide h1 {
-  position: absolute;
-  margin-right: 170px;
-  top: 240px;
-  left: 90px;
-  height: initial;
-  width: initial;
-  font-size: 3em;
-  box-shadow: none;
+    position: absolute;
+    margin-right: 170px;
+    top: 240px;
+    left: 90px;
+    height: initial;
+    width: initial;
+    font-size: 3em;
+    box-shadow: none;
 }
 .title-slide h2 {
-  margin-right: 250px;
-  top: 440px;
-  left: 90px;
-  font-size: 1.1em;
+    margin-right: 250px;
+    top: 440px;
+    left: 90px;
+    font-size: 1.1em;
 }
 .title-slide .remark-slide-number {
-  display: none;
+    display: none;
 }
 
 /* section title style */
 .section-title-slide {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  color: var(--color-ThemeMain);
-  background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    color: var(--color-ThemeMain);
+    background-size: cover;
 }
 .section-title-slide .remark-slide-number {
-  display: none;
+    display: none;
 }
 .section-title-slide h1, .section-title-slide h2 {
-  display: initial;
-  position: absolute;
-  left: 100px;
-  color: var(--color-White);
-  background-color: var(--color-ThemeMain);
+    display: initial;
+    position: absolute;
+    left: 100px;
+    color: var(--color-Background);
+    background-color: var(--color-ThemeMain);
 }
 .section-title-slide h1 {
-  top: 380px;
-  height: initial;
-  width: initial;
-  padding: 10px 20px;
-  font-size: 2.3em;
-  box-shadow: none;
+    top: 380px;
+    height: initial;
+    width: initial;
+    padding: 10px 20px;
+    font-size: 2.3em;
+    box-shadow: none;
 }
 .section-title-slide h2 {
-  top: 300px;
-  padding: 5px 10px;
-  font-size: 1em;
+    top: 300px;
+    padding: 5px 10px;
+    font-size: 1em;
 }
 .section-title-slide a {
-  color: var(--color-White);
+    color: var(--color-Background);
 }
 
 /* two-column layout */
 .left-column {
-  width: 48%;
-  float: left;
-  margin-top: 15px;
+    width: 48%;
+    float: left;
+    margin-top: 15px;
 }
 .left-column > :first-child {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 .remark-slide-content > .left-column {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 .right-column {
-  width: 48%;
-  float: right;
-  margin-top: 15px;
+    width: 48%;
+    float: right;
+    margin-top: 15px;
 }
 .right-column > :first-child {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 .remark-slide-content > .right-column {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 
 /* code style */
 .remark-code, .remark-inline-code {
-  font-family: 'Ubuntu Mono';
+    font-family: 'Fira Mono', monospace;
 }
 .remark-code-span-highlighted {
-  background-color: #373832;
-  padding: 1px 0px 2px 0px;
+    background-color: #373832;
+    padding: 1px 0px 2px 0px;
 }
 .remark-code-line-highlighted {
-  background-color: #373832;
+    background-color: #373832;
 }
 .text > .remark-code-span-highlighted {
-  background-color: rgba(255,255,0,0.5);
+    background-color: rgba(255,255,0,0.5);
 }
 .text > .remark-code-line-highlighted {
-  background-color: rgba(255,255,0,0.5);
+    background-color: rgba(255,255,0,0.5);
 }
 .remark-code {
-  text-indent: 0px;
-  line-height: initial;
-  font-size: 0.9em;
+    text-indent: 0px;
+    line-height: initial;
+    font-size: 0.9em;
 }
 .remark-inline-code {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .left-column .remark-code, .right-column .remark-code {
-  font-size: 0.85em;
+    font-size: 0.85em;
 }
 .big-code .remark-code {
-  font-size: 1.4em;
+    font-size: 1.4em;
 }
 .normal-code .remark-code {
-  font-size: 1.0em;
+    font-size: 1.0em;
 }
 .small-code .remark-code {
-  font-size: 0.7em;
+    font-size: 0.7em;
 }
 
 /* slide info box */
 .info {
-  display: block;
-  left: 50px;
-  right: 50px;
-  background: var(--color-Info);
-  padding: 20px;
-  margin: 30px 0;
-  font-size: 1.5em;
-  color: var(--color-White);
+    display: block;
+    left: 50px;
+    right: 50px;
+    background: var(--color-Info);
+    padding: 20px;
+    margin: 30px 0;
+    font-size: 1.5em;
+    color: var(--color-Background);
 }
 .info em, .info strong, .info a {
-  color: var(--color-White);
+    color: var(--color-Background);
 }
 .info strong {
-  text-decoration: underline;
+    text-decoration: underline;
 }

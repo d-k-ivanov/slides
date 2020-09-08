@@ -4,6 +4,18 @@ $command = {
     $PROJECT_DIR = Get-Location
     $BUILD_DIR = "${PROJECT_DIR}\\build"
 
+    function cleanup() {
+        if (Test-Path "${PROJECT_DIR}\\out")
+        {
+            Remove-Item -Recurse -Force "${PROJECT_DIR}\\out"
+        }
+
+        if (Test-Path "${PROJECT_DIR}\\_out")
+        {
+            Remove-Item -Recurse -Force "${PROJECT_DIR}\\_out"
+        }
+    }
+
     function mkd() {
         New-Item ${BUILD_DIR} -ItemType Directory -ErrorAction SilentlyContinue
         Set-Location ${BUILD_DIR}
@@ -29,7 +41,7 @@ $command = {
         cmake --build .
     }
 
-
+    cleanup
     mkd
     build
 

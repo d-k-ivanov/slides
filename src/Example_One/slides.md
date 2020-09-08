@@ -50,8 +50,6 @@ class: small-code
 
 --
 
-<br>
-
 ```cpp
 class Timer
 {
@@ -70,6 +68,10 @@ private:
     std::chrono::time_point<Clock> start_;
 };
 ```
+
+.info[
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+]
 
 ???
 
