@@ -8,5 +8,5 @@ add_remark_slides(example_one ALL
         remark-language-cmake
     RESOURCES
         img/Binary-Earth-Map.png
-        img/Mario-Question-Mark-Block.png
+        img/Mario-Question-Mark-Block-1920.png
 )
