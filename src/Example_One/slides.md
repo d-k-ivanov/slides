@@ -141,7 +141,7 @@ background-image: url(img/Binary-Earth-Map.png)
 ---
 
 class: section-title-slide
-background-image: url(img/Mario-Question-Mark-Block.png)
+background-image: url(img/Mario-Question-Mark-Block-1920.png)
 <!-- Image source: https://corvallisfamilymedicine.com/faqs/question-mark-block/ -->
 
 # QUAESTIONES SECTIONI
