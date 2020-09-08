@@ -50,14 +50,14 @@
 
     /* Theme Base */
     --color-Background:var(--color-White);
-    --color-Text: var(--color-GrayMedium);
+    --color-Text: var(--color-GrayDark);
 
     /* Theme Title */
     --color-Title: var(--color-GrayDark);
     --color-TitleText: var(--color-White);
 
     /* Theme Footer */
-    --color-Footer: var(--color-GrayMedium);
+    --color-Footer: var(--color-GrayDark);
     --color-FooterText: var(--color-White);
 
 }

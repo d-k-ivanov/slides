@@ -16,27 +16,25 @@ September 07, 2020
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae laoreet mauris. Sed eleifend lorem a purus tincidunt. Morbi malesuada mattis eros, adipiscing tempor lorem varius eget. Maecenas viverra vulputate eros ut facilisis. Nunc mollis, risus nec sodales mollis, turpis nisl pharetra orci, nec consequat sapien odio et velit.
 
-<br>
+--
+
+- Vestibulum ornare blandit mattis
 
 --
 
-- `Vestibulum` `ornare` `blandit` `mattis`
+- `Lorem ipsum dolor sit amet`
 
 --
 
-- `Lorem` `ipsum` `dolor` `sit` `amet`
+- Sed _eleifend_ lorem a putus tincidunt
 
 --
 
-- `Sed` _`eleifend`_ `lorem` `a` `putus` `tincidunt`
+- Malesuada nec *auctor* lorem **varius** eget turpis misl
 
 --
 
-- `Malesuada` `nec` *`auctor`* `lorem` **`varius`** `eget` `turpis` `misl`
-
---
-
-- `Donec` `laoreet` `venenatis` `leo` `vitae` `mauris`
+- `Donec laoreet venenatis leo vitae mauris`
 
 --
 

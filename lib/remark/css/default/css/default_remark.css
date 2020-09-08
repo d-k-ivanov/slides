@@ -5,7 +5,7 @@
     background-color: var(--color-Background);
 }
 .remark-slide-content {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1.6em;
     color: var(--color-Text);
     display: block;
@@ -24,30 +24,31 @@
     padding: 0px 40px 0px 40px;
     top: 0px;
     left: 0px;
-    height: 100px;
+    height: 92px;
     width: 1130px;
     -webkit-box-align: center;
-    font-size: 1.6em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.4em;
+    box-shadow: 0 3px 6px 0 rgba(80, 73, 69, 0.6);
 }
 .remark-slide-content h2 {
     display: initial;
     padding: 0px 15px 0px 15px;
     color: var(--color-Background);
     background-color: var(--color-Accent);
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .remark-slide-content h3 {
     /* display: initial; */
     margin: 15px 0px 15px 0px;
     padding: 0px 15px 0px 15px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .remark-slide-number {
-    bottom: 7px;
+    bottom: 5px;
     position: fixed;
     color: var(--color-FooterText);
-    font-size: 0.5em;
+    font-size: 0.7em;
+    margin: auto;
     right: 40px;
 }
 
@@ -166,7 +167,8 @@
 
 /* code style */
 .remark-code, .remark-inline-code {
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
 }
 .remark-code-span-highlighted {
     background-color: #373832;
