@@ -1,7 +1,6 @@
 # IDE
 .idea
 .vs
-.vscode
 
 build/
 _build/

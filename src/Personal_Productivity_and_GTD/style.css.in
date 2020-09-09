@@ -2,6 +2,17 @@
 
 /* default overwrites */
 
+.title-slide h1 {
+    font-size: 3em;
+    left: 110px;
+    top: 300px;
+    background-color: var(--color-Accent);
+ }
+
+.title-slide h2 {
+    font-size: 1.5em;
+}
+
 :root {
     /* Interesing Colors */
     --color-BlueTwo: rgb(43, 112, 207);

@@ -1,9 +1,9 @@
 class: title-slide
 background-image: url(img/corals.jpg)
 
-# ALMOST GTD
+# THE DONE THING
 
-## Personal Productivity and GTD
+## PERSONAL PRODUCTIVITY AND GTD
 
 Dmitriy Ivanov
 
@@ -23,17 +23,34 @@ September 09, 2020
 
 ---
 
-# MAIN PRODUCTIVITY PROBLEMS IN THE MODERN WORLD
+# PRODUCTIVITY PROBLEMS IN THE MODERN WORLD
 
 --
 
-- _Why corals?_
+- **Why corals?**
 
 --
 
-- The amount of information which go through each of us is `HUGE`
-- Dayly planning not exsist at all.
+.center[
+    <img src="img/corals.jpg" alt="Corals" style="width:512px;"/>
+]
+
+--
+
+---
+
+# PRODUCTIVITY PROBLEMS IN THE MODERN WORLD
+
+- **Why corals?**
+- The amount of information which go through each of us is **HUGE**
+- Dayli planning not exsist at all.
 - ?ddd
+
+--
+
+.info[
+    AAAAAAAAAAAAAAAAAAAAAAA
+]
 
 ---
 
@@ -41,7 +58,13 @@ September 09, 2020
 
 --
 
+.center[
 ![GTD Workflow](img/demo.jpg)
+]
+
+---
+
+# BASIC RULES TO INCREASE PRODUCTIVITY
 
 ---
 
