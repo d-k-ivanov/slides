@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [Almost_GTD](https://d-k-ivanov.github.io/slides/Almost_GTD)
+- [Personal Productivity and GTD](https://d-k-ivanov.github.io/slides/Personal_Productivity_and_GTD)
 
 ## Table of Examples
 
-- [Exmple 1](https://d-k-ivanov.github.io/slides/Example_One)
+- [Exmple Presentation One](https://d-k-ivanov.github.io/slides/Example_One)

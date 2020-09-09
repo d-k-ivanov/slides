@@ -61,14 +61,14 @@
     width: 1120px;
     padding: 550px 0px 0px 90px;
     margin: 0px;
-    color: var(--color-Background);
+    color: var(--color-TitleText);
     font-weight: bold;
     background-size: cover !important;
     background: var(--color-Title);
 }
 .title-slide h1, .title-slide h2 {
     position: absolute;
-    color: var(--color-Background);
+    color: var(--color-TitleText);
     background-color: initial;
     padding: 0px;
 }
@@ -121,7 +121,7 @@
     display: initial;
     position: absolute;
     left: 100px;
-    color: var(--color-TitleText);
+    color: var(--color-Background);
     background-color: var(--color-Accent);
 }
 .section-title-slide h1 {

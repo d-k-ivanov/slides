@@ -1,0 +1,12 @@
+@import url("@REMARK_STYLE@");
+
+/* default overwrites */
+
+:root {
+    /* Interesing Colors */
+    --color-BlueTwo: rgb(43, 112, 207);
+
+    --color-Accent: var(--color-BlueTwo);
+    --color-Info: var(--color-YellowMedium);
+}
+

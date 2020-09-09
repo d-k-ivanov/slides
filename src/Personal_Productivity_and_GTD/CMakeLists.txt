@@ -1,11 +1,13 @@
 add_remark_slides(almost_gtd_demo ALL
-    NAME "Almost_GTD"
-    TITLE "Productivity setup demo session"
+    NAME "Personal_Productivity_and_GTD"
+    TITLE "Personal Productivity and GTD"
     STYLE remark-style-default
     STYLE_TEMPLATE style.css.in
     MARKDOWN_SLIDES slides.md
     LANGUAGES
         remark-language-cmake
     RESOURCES
-        img/microsoft-todo.png
+        img/corals.jpg
+        img/demo.jpg
+        img/questions.png
 )
