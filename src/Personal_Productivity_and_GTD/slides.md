@@ -256,4 +256,4 @@ background-image: url(img/demo.jpg)
 class: section-title-slide
 background-image: url(img/questions.png)
 
-# DISCUSSION
+# QUESTIONS?
