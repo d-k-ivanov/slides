@@ -32,25 +32,31 @@ September 09, 2020
 --
 
 .center[
-    <img src="img/corals.jpg" alt="Corals" style="width:512px;"/>
+    <img src="img/corals.jpg" alt="Corals" style="width:780px;"/>
 ]
-
---
 
 ---
 
 # PRODUCTIVITY PROBLEMS IN THE MODERN WORLD
 
 - **Why corals?**
-- The amount of information which go through each of us is **HUGE**
-- Dayli planning not exsist at all.
-- ?ddd
+- The amount of inbound information nowadays is **huge** and it's **impossible to process everything** properly.
 
 --
 
-.info[
-    AAAAAAAAAAAAAAAAAAAAAAA
-]
+- Daily planning does not exist at all.
+
+--
+
+- Fear to be buried under all inbound tasks.
+
+--
+
+- Laziness...
+
+--
+
+- **"I don't have time enough"** to start arranging activities.
 
 ---
 
@@ -58,8 +64,18 @@ September 09, 2020
 
 --
 
-.center[
-![GTD Workflow](img/demo.jpg)
+.left-column[
+    .center[
+        ![GTD FLOW](img/gtd_flow.png)
+    ]
+]
+
+--
+
+.right-column[
+    .center[
+        ![GTD FLOW](img/David_Allen.jpg)
+    ]
 ]
 
 ---

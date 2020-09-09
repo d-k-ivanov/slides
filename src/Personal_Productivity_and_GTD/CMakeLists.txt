@@ -1,4 +1,4 @@
-add_remark_slides(almost_gtd_demo ALL
+add_remark_slides(personal_productivity_and_gtd ALL
     NAME "Personal_Productivity_and_GTD"
     TITLE "Personal Productivity and GTD"
     STYLE remark-style-default
@@ -9,5 +9,7 @@ add_remark_slides(almost_gtd_demo ALL
     RESOURCES
         img/corals.jpg
         img/demo.jpg
+        img/David_Allen.jpg
+        img/gtd_flow.png
         img/questions.png
 )

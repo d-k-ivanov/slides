@@ -18,6 +18,6 @@
     --color-BlueTwo: rgb(43, 112, 207);
 
     --color-Accent: var(--color-BlueTwo);
-    --color-Info: var(--color-YellowMedium);
+    --color-Info: var(--color-RedMedium);
 }
 
