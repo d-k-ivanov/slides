@@ -12,7 +12,6 @@ external
 
 # CMake related
 _deps
-CMakeSettings.json
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
