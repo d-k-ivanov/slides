@@ -16,8 +16,8 @@ set_base_vars()
 fix_project_version()
 
 # Set additional project information
-set(AUTHOR "Dmitriy Ivanov")
-set(COMPANY "Dmitriy Ivanov")
+set(AUTHOR "Dmitry Ivanov")
+set(COMPANY "Dmitry Ivanov")
 set(COPYRIGHT "Copyright (c) 2020 ${AUTHOR}. All rights reserved.")
 set(IDENTIFIER "https://d-k-ivanov.github.io/slides")
 

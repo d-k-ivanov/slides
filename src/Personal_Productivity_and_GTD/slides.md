@@ -5,7 +5,7 @@ background-image: url(img/corals.jpg)
 
 ## PERSONAL PRODUCTIVITY AND GTD
 
-Dmitriy Ivanov
+Dmitry Ivanov
 
 September 09, 2020
 

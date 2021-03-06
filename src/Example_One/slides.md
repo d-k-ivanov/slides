@@ -4,7 +4,7 @@ class: title-slide
 
 ## LOREM IPSUM SUBTILISSIMA
 
-Dmitriy Ivanov
+Dmitry Ivanov
 
 September 07, 2020
 
