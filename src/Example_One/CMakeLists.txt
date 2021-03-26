@@ -1,4 +1,4 @@
-add_remark_slides(example_one ALL
+add_remark_slides(example_one ALL HANDOUTS
     NAME "Example_One"
     TITLE "Presentation example one"
     STYLE remark-style-default
