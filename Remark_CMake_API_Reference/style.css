@@ -1,0 +1,36 @@
+@import url("css/default.css");
+
+/* default overwrites */
+
+.title-slide h1 {
+    font-size: 3em;
+    left: 110px;
+    top: 300px;
+    background-color: rgb(0, 0, 0);
+ }
+
+.title-slide h2 {
+    font-size: 1.5em;
+    background-color: rgb(0, 0, 0);
+}
+
+.title-slide p {
+    color: rgb(0, 0, 0);
+}
+
+.section-title-slide h1 {
+    background-color: rgb(43, 112, 207);
+}
+
+.section-title-slide h2 {
+    background-color: rgb(43, 112, 207);
+}
+
+.section-title-slide a {
+    font-weight: normal;
+}
+
+.left-column blockquote {
+    color: rgb(43, 112, 207);
+    # color: var(--color-Accent);
+}

@@ -1,0 +1,7 @@
+Copyright (c) 2020 Dmitry Ivanov. All rights reserved.
+--------------------------------------------------------------------------------
+Application Name: slides
+Application Version: 0.1.0.0
+Author: Dmitry Ivanov
+Company: Dmitry Ivanov
+Identifier: https://d-k-ivanov.github.io/slides

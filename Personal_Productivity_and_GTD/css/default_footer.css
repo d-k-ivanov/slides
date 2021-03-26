@@ -1,0 +1,42 @@
+/* Header/Footer stuff */
+div.header {
+    /* background-color: #F77A00; */
+    /* background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffb76b), color-stop(0%,#ffa73d), color-stop(0%,#ffffff), color-stop(10%,#ffffff), color-stop(25%,#F77A00), color-stop(100%,#F77A00)); */
+    position: fixed;
+    /* border-style: none none solid none; */
+    /* border-color: var(--color-Footer); */
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 3px 6px 0 rgba(80, 73, 69, 0.4), 0 6px 12px 0 rgba(80, 73, 69, 0.19);
+    /* text-align: center; */
+}
+
+div.footer {
+    bottom: 0px;
+	height: 30px;
+	left: 0px;
+	position: fixed;
+	width: 100%;
+    background-color: var(--color-Footer);
+}
+
+div.footer p {
+    bottom: 5px;
+    color: var(--color-FooterText);
+    font-family: 'Economica', sans-serif;
+    font-size: 0.7em;
+    font-weight: normal;
+    margin: auto;
+    position: absolute;
+    Left: 40px;
+    text-align: left;
+    width: 80%;
+}
+
+div.footer p span {
+    color: var(--color-Accent);
+    font-weight: bold;
+    font-size: 1.2em;
+}

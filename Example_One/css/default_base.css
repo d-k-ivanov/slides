@@ -1,0 +1,89 @@
+/* default HTML styles */
+h1, h2, h3 {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+    line-height: 1em;
+    color: var(--color-Text);
+}
+h1 code {
+    font-size: 1em;
+}
+p {
+    line-height: 1.3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    /* margin: 0; */
+    margin: 15px 0px 0px 0px;
+    line-height: 1.7em;
+}
+ul ul {
+    margin: 0px 0px 0px 0px;
+    line-height: 1.5em;
+}
+ul ul ul {
+    line-height: 1.3em;
+}
+li::before {
+    padding-right: 9px;
+}
+ul > li {
+    padding-left: 1em;
+    text-indent: -.85em;
+}
+ul > li:before {
+    content: "•";
+    color: var(--color-Accent);
+}
+ul ul > li:before {
+    content: "–";
+    color: var(--color-Text);
+}
+ul ul ul > li:before {
+    content: "•";
+    color: var(--color-Text);
+}
+ul > li > p {
+        display: initial;
+}
+ol > li {
+    line-height: 2em;
+}
+a {
+    color: var(--color-Accent);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+strong {
+    color: var(--color-Accent);
+    font-weight: bold;
+}
+em {
+    color: var(--color-Accent);
+    font-weight: bold;
+}
+pre {
+    margin: 0.75em 0px;
+}
+
+img {
+    display: block;
+    max-width:1100px;
+    max-height:471px;
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+.center img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.right img {
+    float: right;
+    margin: 10px 0px 10px 50px;
+}
